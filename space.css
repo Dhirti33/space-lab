@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #ffd197;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.top-text {
+    padding: 25px;
+    
+}
+/* Navigation section */
+.nav-container{
+
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.navbar>.lab-name{
+  display: flex;
+  font-size: larger;
+  font-weight: 300;
+}
+.lab-name>.last-name{
+  color: red;
+}
+.link {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+}
+.link > a {
+  position: relative;
+  justify-content: space-around;
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+  font-weight: 200;
+  padding: 5px;
+}
+.link>button{
+  padding: 5px; 
+}
+
+button:hover{
+  border: 1px solid black;
+}
+/* text information */
+
+#text-container{
+  justify-content: space-around;
+  gap: 50px;
+  display: flex;
+  padding-top: 25px;
+  position: static;
+}
+.wrap {
+  display: flex;
+}
+.container {
+  gap: 50px;
+  
+  position: relative;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  font-weight: 500;
+  font-size: x-large;
+  padding-left: 20px;
+  gap: 20px;
+}
+.txt{
+  display: flex;
+  padding-left: 10px;
+  text-align: center;
+}
+.txt>.tst{
+  border-radius: 50%;
+  border: 4px solid red;
+}
+button{
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #B97566;
+}
+.image{
+    
+}
+.image>.img{
+  background-image: url(./pics/office-95311_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-width: 650px;
+  width: auto;
+  min-height: 100%;
+  height: 400px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+/* Button text */
+
+.bottom-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  padding-top: 60px;
+  align-items: center;
+  text-align: center;
+}
+.button-txt>h3{
+  padding-bottom: 10px;
+  font-size: x-large;
+  font-weight: 500;
+}
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.one img {
+  float: left;
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
+  gap: 20px;
+}
